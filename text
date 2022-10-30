@@ -1,0 +1,3 @@
+ <td className="hidden-xs text-center">{total &&<strong>Total ${total.reduce((previousValue,currentValue)=>
+                            ((previousValue.product.price *previousValue.quantity)  + (currentValue.product.price*currentValue.quantity))
+                        ,0)}</strong>}</td>
